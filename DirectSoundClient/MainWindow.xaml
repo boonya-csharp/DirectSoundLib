@@ -1,0 +1,32 @@
+﻿<Window x:Class="DirectSoundClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+
+        <GroupBox Grid.Row="0" Header="DSLibCapture">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="初始化" Click="ButtonInit_Click"/>
+                <Button Content="开始录音" Click="ButtonStartCapture_Click"/>
+                <Button Content="停止录音" Click="ButtonStopCapture_Click"/>
+                <Button Content="释放资源" Click="ButtonRelease_Click"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="1" Header="DSLibPlayer">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="初始化" Click="ButtonInitDSLibPlayer_Click"/>
+                <Button Content="选择文件" Click="ButtonBrowserFile_Click"/>
+                <Button Content="开始播放" Click="ButtonStarPlay_Click"/>
+                <Button Content="停止播放" Click="ButtonStopPlay_Click"/>
+                <Button Content="释放资源" Click="ButtonReleaseDSLibPlayer_Click"/>
+            </StackPanel>
+        </GroupBox>
+
+    </Grid>
+</Window>

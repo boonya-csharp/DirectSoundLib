@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectSound", "DirectSound\DirectSound.vcxproj", "{D062CD61-47D8-495F-B5FA-9A8D8E55CFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectSoundLib", "DirectSoundLib\DirectSoundLib.csproj", "{E3D25FF3-885B-4C7B-A352-56CEF596EB17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectSoundClient", "DirectSoundClient\DirectSoundClient.csproj", "{7E800A63-91D5-42A7-B94D-D2FAA342F820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D062CD61-47D8-495F-B5FA-9A8D8E55CFF8}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D062CD61-47D8-495F-B5FA-9A8D8E55CFF8}.Debug|x86.ActiveCfg = Debug|Win32
+		{D062CD61-47D8-495F-B5FA-9A8D8E55CFF8}.Debug|x86.Build.0 = Debug|Win32
+		{D062CD61-47D8-495F-B5FA-9A8D8E55CFF8}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D062CD61-47D8-495F-B5FA-9A8D8E55CFF8}.Release|x86.ActiveCfg = Release|Win32
+		{D062CD61-47D8-495F-B5FA-9A8D8E55CFF8}.Release|x86.Build.0 = Release|Win32
+		{E3D25FF3-885B-4C7B-A352-56CEF596EB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D25FF3-885B-4C7B-A352-56CEF596EB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D25FF3-885B-4C7B-A352-56CEF596EB17}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E3D25FF3-885B-4C7B-A352-56CEF596EB17}.Debug|x86.Build.0 = Debug|Any CPU
+		{E3D25FF3-885B-4C7B-A352-56CEF596EB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D25FF3-885B-4C7B-A352-56CEF596EB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D25FF3-885B-4C7B-A352-56CEF596EB17}.Release|x86.ActiveCfg = Release|Any CPU
+		{E3D25FF3-885B-4C7B-A352-56CEF596EB17}.Release|x86.Build.0 = Release|Any CPU
+		{7E800A63-91D5-42A7-B94D-D2FAA342F820}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7E800A63-91D5-42A7-B94D-D2FAA342F820}.Debug|x86.ActiveCfg = Debug|x86
+		{7E800A63-91D5-42A7-B94D-D2FAA342F820}.Debug|x86.Build.0 = Debug|x86
+		{7E800A63-91D5-42A7-B94D-D2FAA342F820}.Release|Any CPU.ActiveCfg = Release|x86
+		{7E800A63-91D5-42A7-B94D-D2FAA342F820}.Release|x86.ActiveCfg = Release|x86
+		{7E800A63-91D5-42A7-B94D-D2FAA342F820}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

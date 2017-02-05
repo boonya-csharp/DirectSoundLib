@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="34a04807-842a-4dd7-a1c0-e90cef86f678" name="UMLClassDiagram1" linkedPackageId="b0124d86-0889-47a7-9f44-a2bd0b39398c" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c403ea89-6230-4731-8084-a0cb928e1411">
+      <profileInstance Id="aa226da3-2d2f-4bfb-9207-9d689c50a414" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="7b3a533e-6a8c-44c4-93ea-c777b33b7ce9">
+      <profileInstance Id="007f8d76-0b32-4274-a5b9-68378ca99a7b" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bed34dc2-138c-4e7d-8cd3-9b5db773ccf8" name="DSLibCapture" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="18c26314-cfd5-4fa6-ade6-f221fce1165e" />
+        <ownedAttributesInternal>
+          <property Id="90135e9b-8f77-4c45-9693-c48c0d3c4b06" name="IsRunning" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6102debd-c88c-483c-b2e4-565f04d8d920" />
+          </property>
+          <property Id="4ddd4d21-55e3-4a2d-97eb-65c93eb35c73" name="WaveFormat" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4aa18948-f59d-4703-973a-356767e3e299" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="ca113d36-fa65-41cd-b93a-61c3f8226f9f" name="Initialize" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c2f5afe2-6891-4df0-89bd-7418168e22f5" />
+          </operation>
+          <operation Id="cb40d275-c064-4642-94ee-d9e30506e02c" name="Release" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9f2fbe6f-3090-4486-a41f-33fb82efb8ec" />
+          </operation>
+          <operation Id="2ffe1969-1124-4d86-ac4d-3915732e0dbe" name="Start" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e196f886-b735-4b0a-8bd4-755f7b604c61" />
+          </operation>
+          <operation Id="6c52e2fd-daeb-4fa7-a3f5-1e4fd9c9be9d" name="Stop" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8a23b533-9064-49df-866d-d4f569ae99de" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="b0124d86-0889-47a7-9f44-a2bd0b39398c" name="ModelingProject">
+    <elementDefinition Id="8d2096b3-9c61-4fbe-86a7-4cd3a26a529f" />
+  </package>
+</logicalClassDesignerModel>
