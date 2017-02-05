@@ -1,0 +1,2 @@
+# DirectSoundLib
+DirectSoundLib for C#
