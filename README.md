@@ -7,7 +7,7 @@ DirectSoundLib：主类库
 DirectSoundClient：Demo程序  
 DirectSound：测试使用的C++项目  
 
-补充说明：  
+补充说明：  
 1.详细的接口说明文档和设计文档会慢慢更新到项目中  
 2.本项目会不定期更新  
 3.请大家多多支持  
